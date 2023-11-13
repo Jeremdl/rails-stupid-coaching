@@ -1,0 +1,10 @@
+<div class="container m-2">
+  <h1>Stypid Coaching</h1>
+  <div class="border-start border-3 m-2 p-2">
+    <p>You : <%=@question%></p>
+  </div>
+  <div class="border-start border-3 m-2 p-2">
+    <p>Coach : <%=@answer%></p>
+  </div>
+  <%= link_to "Ask new question", ask_path, class: "btn btn-primary m-2 p-2"%>
+</div>
